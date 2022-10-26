@@ -30,7 +30,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.json({ extended: false }));
-app.use(ProductRoute);
+//app.use(ProductRoute);
 
 app.use("/",  (req, res) => {
     res.send("Hello World");
