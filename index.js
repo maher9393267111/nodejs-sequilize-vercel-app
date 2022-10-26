@@ -23,7 +23,7 @@
 
 import express from 'express';
 import cors from 'cors';
-import ProductRoute from './routes/ProductRoute.js';
+//import ProductRoute from './routes/ProductRoute.js';
 import bodyParser from "body-parser";
 
 const app = express();
