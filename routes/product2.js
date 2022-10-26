@@ -6,7 +6,7 @@ const router = express.Router();
  *
  * @return product list | empty.
  */
-router.get("/pro", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     res.json({
       status: 200,
